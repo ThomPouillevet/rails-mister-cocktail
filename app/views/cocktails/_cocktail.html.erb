@@ -1,0 +1,10 @@
+
+<% if cocktail.photo?  %>
+  <%= link_to(cocktail_path(cocktail), class: "card", style: "background-image: url(#{cocktail_image_path_for(cocktail)})") do %>
+    <h2> <%= cocktail.name %></h2>
+  <% end %>
+<% else %>
+  <%= link_to(cocktail_path(cocktail), class: "card") do %>
+    <h2> <%= cocktail.name %></h2>
+  <% end %>
+<% end %>
