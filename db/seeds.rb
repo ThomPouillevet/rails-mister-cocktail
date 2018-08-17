@@ -13,17 +13,15 @@
 # Cocktail.destroy_all
 
 puts 'Creating cocktails and ingredients...'
-Ingredient.create(name: "lemon")
-Ingredient.create(name: "ice")
-Ingredient.create(name: "mint leaves")
+Ingredient.create(name: "Lemon")
+Ingredient.create(name: "Ice")
+Ingredient.create(name: "Mint leaves")
 Ingredient.create(name: "Whisky")
 Ingredient.create(name: "Tequila")
 Ingredient.create(name: "Sirup")
 Ingredient.create(name: "Sugar")
 Ingredient.create(name: "Coca")
 Ingredient.create(name: "Salt")
+Ingredient.create(name: "Rhum")
 
-Cocktail.create(name: "Mojito")
-Cocktail.create(name: "Tequila Sunrise")
-Cocktail.create(name: "Whisky Coca")
 puts 'Finished!'
