@@ -25,3 +25,4 @@ Ingredient.create(name: "Salt")
 Ingredient.create(name: "Rhum")
 
 puts 'Finished!'
+
