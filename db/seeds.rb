@@ -8,9 +8,9 @@
 
 
 
-# puts 'Cleaning database...'
-# Ingredient.destroy_all
-# Cocktail.destroy_all
+puts 'Cleaning database...'
+Ingredient.destroy_all
+Cocktail.destroy_all
 
 puts 'Creating cocktails and ingredients...'
 Ingredient.create(name: "Lemon")
@@ -23,6 +23,9 @@ Ingredient.create(name: "Sugar")
 Ingredient.create(name: "Coca")
 Ingredient.create(name: "Salt")
 Ingredient.create(name: "Rhum")
+Cocktail.create(name: "Mojito")
+Cocktail.create(name: "Black Russian")
+
 
 puts 'Finished!'
 
